@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Plantas Medicinais e Fitoterápicos - Porto Alegre</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('https://placehold.co/1200x600/2E7D32/FFFFFF?text=Plantas+Medicinais');
+            background-size: cover;
+            background-position: center;
+        }
+        .section-title {
+            border-left: 4px solid #4CAF50; /* Green accent */
+            padding-left: 0.75rem;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+        }
+        .status-realizada { background-color: #4CAF50; /* Green */ }
+        .status-em-andamento { background-color: #FFC107; /* Amber */ }
+        .status-nao-realizada { background-color: #F44336; /* Red */ }
+        .status-nao-atingida { background-color: #F44336; /* Red */ }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-green-700 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-3xl font-bold">Saúde e Natureza</h1>
+            <nav class="mt-4 md:mt-0">
+                <a href="#politica" class="px-3 py-2 hover:bg-green-600 rounded-md">A Política</a>
+                <a href="#farmacia-viva" class="px-3 py-2 hover:bg-green-600 rounded-md">Farmácia Viva</a>
+                <a href="#acoes" class="px-3 py-2 hover:bg-green-600 rounded-md">Ações</a>
+                <a href="#metas" class="px-3 py-2 hover:bg-green-600 rounded-md">Metas 2024</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-20 md:py-32">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4">Política Municipal de Plantas Medicinais e Fitoterápicos</h2>
+            <p class="text-lg md:text-xl mb-8">Promovendo saúde e bem-estar através do conhecimento ancestral e científico em Porto Alegre.</p>
+            <a href="#politica" class="bg-white text-green-700 font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-gray-100 transition duration-300">Saiba Mais</a>
+        </div>
+    </section>
+
+    <!-- Sobre a Política Section -->
+    <section id="politica" class="py-16">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-semibold mb-2 section-title">Sobre a Política</h3>
+            <p class="text-gray-600 mb-8 text-lg">Um olhar sobre as iniciativas e o compromisso com a saúde natural em Porto Alegre, com base no Relatório Anual de Gestão 2024.</p>
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <img src="https://placehold.co/600x400/A5D6A7/388E3C?text=Sa%C3%BAde+e+Natureza" alt="Imagem de plantas medicinais e um símbolo de saúde" class="rounded-lg shadow-xl w-full h-auto">
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-xl">
+                    <h4 class="text-2xl font-semibold text-green-700 mb-4">Visão Geral</h4>
+                    <p class="mb-4">A Política Municipal de Plantas Medicinais e Fitoterápicos de Porto Alegre visa integrar o uso seguro e racional de plantas medicinais no Sistema Único de Saúde (SUS), valorizando o conhecimento tradicional e promovendo a pesquisa e o desenvolvimento.</p>
+                    <p class="mb-4">Embora o Plano Operativo Anual de 2024 não tenha sido formalmente publicizado, diversas ações demonstram o compromisso contínuo com a implementação desta política vital para a saúde da população.</p>
+                    <div class="mt-6">
+                        <h5 class="font-semibold text-lg mb-2 text-gray-700">Foco Principal:</h5>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Implantação da Farmácia Viva.</li>
+                            <li>Educação permanente para profissionais de saúde.</li>
+                            <li>Articulação intersetorial e com a comunidade.</li>
+                            <li>Qualificação dos registros de uso.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Farmácia Viva Section -->
+    <section id="farmacia-viva" class="bg-green-50 py-16">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-semibold mb-2 section-title">Farmácia Viva: Coração da Política</h3>
+            <p class="text-gray-600 mb-10 text-lg">Um projeto fundamental para o cultivo, preparo e dispensação de plantas medicinais e fitoterápicos.</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg card-hover transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-600 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                        </svg>
+                        <h4 class="text-xl font-semibold text-green-700">Estruturação e Implantação</h4>
+                    </div>
+                    <p class="text-gray-600 text-sm">A Secretaria Municipal de Saúde (SMS) está trabalhando ativamente na implantação da Farmácia Viva, com base no edital SCTIE/MS n° 01/2021. As atividades de cultivo, irrigação, capina, colheita e transporte de mudas estão em andamento.</p>
+                    <p class="text-sm mt-3"><span class="status-dot status-em-andamento"></span><span class="font-semibold">Status:</span> Em andamento</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg card-hover transition duration-300">
+                     <div class="flex items-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-600 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                        <h4 class="text-xl font-semibold text-green-700">Prazo Estendido</h4>
+                    </div>
+                    <p class="text-gray-600 text-sm">O Ministério da Saúde (MS) prorrogou o prazo para a implementação completa da Farmácia Viva por mais 24 meses, estendendo-se até dezembro de 2025. Isso permite um planejamento e execução mais robustos.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg card-hover transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-600 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <h4 class="text-xl font-semibold text-green-700">Desafios e Próximos Passos</h4>
+                    </div>
+                    <p class="text-gray-600 text-sm">O projeto arquitetônico não foi realizado no 3º quadrimestre de 2024, com previsão de nova licitação para o primeiro semestre de 2025. A continuidade dos trabalhos é crucial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ações do Plano Section -->
+    <section id="acoes" class="py-16">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-semibold mb-2 section-title">Ações Detalhadas do Plano</h3>
+            <p class="text-gray-600 mb-10 text-lg">Conheça as principais frentes de trabalho para fortalecer a política de plantas medicinais.</p>
+            <div class="space-y-6">
+                <!-- Ação 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
+                    <h4 class="text-xl font-semibold text-blue-700 mb-2">1. Estruturar e Implantar a Farmácia Viva</h4>
+                    <p class="text-gray-600 mb-2 text-sm">Como mencionado, este é um eixo central, com trabalhos de cultivo e infraestrutura em andamento.</p>
+                    <p class="text-sm"><span class="status-dot status-em-andamento"></span><span class="font-semibold">Situação:</span> Em andamento</p>
+                </div>
+                <!-- Ação 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
+                    <h4 class="text-xl font-semibold text-green-700 mb-2">2. Educação Permanente para Profissionais</h4>
+                    <p class="text-gray-600 mb-2 text-sm">Articulação de oficinas de PICS e uso racional de plantas medicinais para profissionais de saúde e idosos. Projeto de horto educativo na US Camaquã e apresentações de trabalhos da Remaps.</p>
+                    <p class="text-sm"><span class="status-dot status-realizada"></span><span class="font-semibold">Situação:</span> Realizada</p>
+                </div>
+                <!-- Ação 3 -->
+                 <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
+                    <h4 class="text-xl font-semibold text-green-700 mb-2">3. Orientação sobre Fluxo de Acesso</h4>
+                    <p class="text-gray-600 mb-2 text-sm">Acompanhamento de seminários com residentes, profissionais e comunidade para qualificar registros e ampliar o acesso às consultas.</p>
+                    <p class="text-sm"><span class="status-dot status-realizada"></span><span class="font-semibold">Situação:</span> Realizada</p>
+                </div>
+                <!-- Ação 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
+                    <h4 class="text-xl font-semibold text-green-700 mb-2">4. Qualificação dos Registros de Uso</h4>
+                    <p class="text-gray-600 mb-2 text-sm">Articulação de seminários e oficinas para qualificar os registros dos serviços com plantas medicinais nos sistemas de prontuários.</p>
+                    <p class="text-sm"><span class="status-dot status-realizada"></span><span class="font-semibold">Situação:</span> Realizada</p>
+                </div>
+                <!-- Ação 5 -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-teal-500">
+                    <h4 class="text-xl font-semibold text-teal-700 mb-2">5. Articulação Intersetorial e Transversal</h4>
+                    <p class="text-gray-600 mb-2 text-sm">Oficinas de PICS na 3ª Mostra de Atenção Primária, oficinas em seminários de agentes comunitários e coordenadorias. Visita técnica à Farmácias Vivas no Ceará para fortalecer articulações.</p>
+                    <p class="text-sm"><span class="status-dot status-realizada"></span><span class="font-semibold">Situação:</span> Realizada</p>
+                </div>
+                 <!-- Ação 6 -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-red-500">
+                    <h4 class="text-xl font-semibold text-red-700 mb-2">6. Expedição de Coleta em Terras Kaingang</h4>
+                    <p class="text-gray-600 mb-2 text-sm">Coleta de plantas medicinais tradicionais. Não foi possível realizar no período devido às enchentes, aguardando definições.</p>
+                    <p class="text-sm"><span class="status-dot status-nao-realizada"></span><span class="font-semibold">Situação:</span> Não Realizada</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metas PAS 2024 Section -->
+    <section id="metas" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-semibold mb-2 section-title">Meta da Programação Anual de Saúde (PAS) 2024</h3>
+            <p class="text-gray-600 mb-8 text-lg">Análise da Meta 39 referente à Política de Plantas Medicinais e Fitoterápicos.</p>
+            <div class="bg-white p-8 rounded-lg shadow-xl border-t-4 border-red-600">
+                <div class="flex items-start md:items-center mb-4 flex-col md:flex-row">
+                    <div class="bg-red-100 text-red-700 p-4 rounded-full mr-0 md:mr-6 mb-4 md:mb-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-semibold text-red-700">Meta 39: Apresentar e executar o Plano Operativo Anual 2024</h4>
+                        <p class="text-gray-700 mt-1">"Apresentar e executar o Plano Operativo Anual de 2024 da Política de Plantas Medicinais e Fitoterápicos de Porto Alegre no âmbito do SUS."</p>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-6 text-center mt-6">
+                    <div>
+                        <p class="text-4xl font-bold text-red-600">0</p>
+                        <p class="text-gray-600">Resultado 2024</p>
+                    </div>
+                    <div>
+                        <p class="text-4xl font-bold text-red-600">0%</p>
+                        <p class="text-gray-600">% Cumprimento</p>
+                    </div>
+                    <div>
+                        <p class="text-xl font-bold text-red-600 py-2 px-3 inline-block bg-red-50 rounded-md">Grau I (<25%)</p>
+                        <p class="text-gray-600 mt-1">Grau de Cumprimento</p>
+                    </div>
+                </div>
+                <div class="mt-8 pt-6 border-t border-gray-200">
+                    <h5 class="font-semibold text-lg text-gray-700 mb-2">Análise da Meta:</h5>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li><span class="status-dot status-nao-atingida"></span>A meta não foi atingida devido à não apresentação/publicização do Plano Operativo.</li>
+                        <li><span class="status-dot status-em-andamento"></span>No entanto, as ações de implantação da política estão em andamento.</li>
+                        <li><span class="status-dot status-em-andamento"></span>O projeto da Farmácia Viva continua em desenvolvimento, com prazo prorrogado.</li>
+                        <li><span class="status-dot status-realizada"></span>Participações em oficinas e articulações intersetoriais foram realizadas.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusão e Próximos Passos -->
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-semibold mb-2 section-title">Conclusão e Perspectivas</h3>
+            <p class="text-gray-600 mb-8 text-lg">Reflexões sobre o progresso e os desafios futuros da política.</p>
+            <div class="bg-white p-8 rounded-lg shadow-xl flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-6 md:mb-0 md:mr-8">
+                    <img src="https://placehold.co/400x300/81C784/FFFFFF?text=Caminho+a+Seguir" alt="Imagem simbólica de um caminho ou crescimento de plantas" class="rounded-lg shadow-md w-full h-auto">
+                </div>
+                <div class="md:w-2/3">
+                    <p class="mb-4 text-gray-700">O Relatório Anual de Gestão de 2024 evidencia um cenário de <strong class="text-green-700">progresso contínuo</strong> na implementação da Política de Plantas Medicinais e Fitoterápicos, apesar de desafios como a não formalização do Plano Operativo Anual.</p>
+                    <p class="mb-4 text-gray-700">A <strong class="text-green-700">Farmácia Viva</strong> permanece como um projeto central e promissor, com avanços significativos em cultivo e um horizonte estendido para sua completa estruturação até dezembro de 2025. Ações de educação, qualificação de registros e, crucialmente, as <strong class="text-green-700">articulações intersetoriais</strong> foram bem-sucedidas, demonstrando o potencial colaborativo da política.</p>
+                    <p class="text-gray-700">Desafios como a realização da expedição em terras Kaingang, adiada devido a eventos climáticos, e a necessidade de licitação para o projeto arquitetônico da Farmácia Viva, destacam a importância da resiliência e adaptação. A continuidade dos trabalhos e o fortalecimento das parcerias são essenciais para consolidar os benefícios desta política para a saúde da população de Porto Alegre.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-800 text-green-50 py-10 mt-10">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; <span id="currentYear"></span> Secretaria Municipal de Saúde de Porto Alegre. Todos os direitos reservados.</p>
+            <p class="text-sm mt-2">Informações baseadas no Relatório Anual de Gestão 2024.</p>
+            <p class="text-xs mt-4">Este é um website informativo criado com base em dados públicos.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
